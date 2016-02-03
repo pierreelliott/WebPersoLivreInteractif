@@ -1,0 +1,29 @@
+body>div
+{
+	margin: 2vh 10vw;
+	background-color: #dcdbda;
+	padding: 2em;
+	border-radius: 0.5em;	
+}
+
+html
+{
+	background-color: #1C1C1C;
+}
+
+a
+{
+	display: block;
+	color: #DF7401;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #8A4B08;
+}
+
+section
+{
+	font-size: 16pt;
+}
