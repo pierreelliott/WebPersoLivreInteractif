@@ -14,7 +14,8 @@ html
 a
 {
 	display: block;
-	color: #DF7401;
+	/*color: #DF7401;*/
+	color: white;
 	text-decoration: none;
 }
 
@@ -23,7 +24,31 @@ a:hover
 	color: #8A4B08;
 }
 
+ul
+{
+	list-style: none;
+}
+
 section
 {
 	font-size: 16pt;
+}
+
+section>section
+{
+	display: none;
+}
+
+#livre section:target
+{
+	margin: 10% 2%;
+	padding: 2em;
+	border-radius: 0.2em;
+	background-color: rgb(30,150,30);
+	display: block;
+}
+
+#first a
+{
+	color: #DF7401;
 }
